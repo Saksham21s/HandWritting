@@ -42,7 +42,7 @@ function SpeechToText() {
     const classes = useStyles();
     const [open, setOpen] = useState(false);
     const [copy, setCopy] = useState(false)
-    const [copied, setCopied] = useState(false)
+    const [ setCopied] = useState(false)
   
     const handleClickOpen = () => {
       setOpen(true);
