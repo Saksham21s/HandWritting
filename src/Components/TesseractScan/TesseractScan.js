@@ -63,7 +63,7 @@ function TesseractScan() {
 
     const [scanText, setScanText] = useState('Scanned Text Will Appear Here. Please be patient, it might take 1-2 mins')
     const [image, setImage] = useState(null)
-    const [copied, setCopied] = useState(false)
+    const [setCopied] = useState(false)
 
     const imageUpload = (event) => {
         setImage(URL.createObjectURL(event.target.files[0]))
